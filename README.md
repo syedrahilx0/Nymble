@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Nymble prototype (MERN)
 
 A working web app that simulates the architecture from the paper *Nymble: Blocking Misbehaving Users in Anonymizing Networks*. Users get a pseudonymous Nymble ID and short-lived tokens, a simulated service checks those tokens, and administrators can blacklist a pseudonym so it is blocked on the very next request.
@@ -96,3 +97,6 @@ postman/        collection
 
 - Token and service state live in one database, which is the opposite of the paper's separation between Pseudonym Manager and Nymble Manager.
 - The browser keeps the raw Nymble token in localStorage (per account) because the server cannot show it again.
+=======
+# Nymble
+>>>>>>> 8ced950da46aa88bbc081d349b61607090fe3df4
